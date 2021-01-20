@@ -34,6 +34,7 @@ namespace VerboseOcarina
                 { v10RadioButton, ORom.Build.N0 },
                 { v11RadioButton, ORom.Build.N1 },
                 { v12RadioButton, ORom.Build.N2 },
+                { v12RadioButton, ORom.Build.N9 },
                 //PAL
                 { v10PRadioButton, ORom.Build.P0 },
                 { v11PRadioButton, ORom.Build.P1 },

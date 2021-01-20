@@ -15,6 +15,7 @@ namespace mzxrules.OcaLib
                 new BuildInformation { CRC = 0xEC7011B77616D72B, Version = Build.N0, Name = "NTSC 1.0", Localization = Localization.NTSC },
                 new BuildInformation { CRC = 0xD43DA81F021E1E19, Version = Build.N1, Name = "NTSC 1.1", Localization = Localization.NTSC },
                 new BuildInformation { CRC = 0x693BA2AEB7F14E9F, Version = Build.N2, Name = "NTSC 1.2", Localization = Localization.NTSC },
+                new BuildInformation { CRC = 0x48CA05F4F7E96D83, Version = Build.N9, Name = "NTSC 0.9", Localization = Localization.NTSC },
 
                 new BuildInformation { CRC = 0xB044B569373C1985, Version = Build.P0, Name = "PAL 1.0", Localization = Localization.PAL },
                 new BuildInformation { CRC = 0xB2055FBD0BAB4E0C, Version = Build.P1, Name = "PAL 1.1", Localization = Localization.PAL },
@@ -71,7 +72,8 @@ namespace mzxrules.OcaLib
             N0, //NTSC 1.0
             N1, //NTSC 1.1
             N2, //NTSC 1.2
-            
+            N9, //NTSC 0.9
+
             P0, //PAL 1.0 
             P1, //PAL 1.1
 
@@ -102,6 +104,7 @@ namespace mzxrules.OcaLib
             yield return Build.N0; //NTSC 1.0
             yield return Build.N1; //NTSC 1.1
             yield return Build.N2; //NTSC 1.2
+            yield return Build.N9; //NTSC 0.9
 
             yield return Build.P0; //PAL 1.0 
             yield return Build.P1; //PAL 1.1
